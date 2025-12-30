@@ -23,8 +23,8 @@ btn1.addEventListener("click", function(){
     }else if(isNaN(i1.value)){
          error1.innerHTML="Please Enter a Number";
 
-    }else if(!(i1.value<=20 && i1.value>0)){
-         error1.innerHTML="Please Enter a Number 1 to 20";
+    }else if(!(i1.value<=10 && i1.value>0)){
+         error1.innerHTML="Please Enter a Number 1 to 10";
 
     }else{
         gp1.style.display="none"
@@ -45,8 +45,8 @@ btn2.addEventListener("click", function(){
     }else if(isNaN(i2.value)){
          error2.innerHTML="Please Enter a Number";
 
-    }else if(!(i2.value<=20 && i2.value>0)){
-         error2.innerHTML="Please Enter a Number 1 to 20";
+    }else if(!(i2.value<=10 && i2.value>0)){
+         error2.innerHTML="Please Enter a Number 1 to 10";
 
     }else{
         error2.innerHTML=" "
