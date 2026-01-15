@@ -14,7 +14,7 @@ let chance=document.querySelector(".chance")
 let i2=document.querySelector(".i2")
 let error2=document.querySelector(".error2")
 let btn2=document.querySelector(".btn2")
-let count =5
+let count =10
 
 
 btn1.addEventListener("click", function(){
