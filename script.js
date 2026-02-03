@@ -14,7 +14,7 @@ let chance=document.querySelector(".chance")
 let i2=document.querySelector(".i2")
 let error2=document.querySelector(".error2")
 let btn2=document.querySelector(".btn2")
-let count =10
+let count =20
 
 
 btn1.addEventListener("click", function(){
@@ -23,7 +23,7 @@ btn1.addEventListener("click", function(){
     }else if(isNaN(i1.value)){
          error1.innerHTML="Please Enter a Number";
 
-    }else if(!(i1.value<=10 && i1.value>0)){
+    }else if(!(i1.value<=20 && i1.value>0)){
          error1.innerHTML="Please Enter a Number 1 to 10";
 
     }else{
@@ -45,7 +45,7 @@ btn2.addEventListener("click", function(){
     }else if(isNaN(i2.value)){
          error2.innerHTML="Please Enter a Number";
 
-    }else if(!(i2.value<=10 && i2.value>0)){
+    }else if(!(i2.value<=20 && i2.value>0)){
          error2.innerHTML="Please Enter a Number 1 to 10";
 
     }else{
